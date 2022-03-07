@@ -8,10 +8,6 @@ export const Top = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
-
-  /* @media screen and (max-width: 1462px) {
-    display:grid ;
-    justify-content:center ; */
 `;
 
 export const Topimg = styled.img`
@@ -37,7 +33,7 @@ export const BottomThree = styled.div`
   justify-content: center;
   column-gap: 20px;
 
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1080px) {
     display: grid;
     row-gap: 15px;
     margin-top: 130px;
@@ -50,11 +46,10 @@ export const SideNav = styled.div`
   width: 200px;
   position: fixed;
   top: 0;
-  left: 0;
   background-color: #393939;
   padding-top: 20px;
 
-  /* @media screen and (max-width: 1400px) {
+  /* @media screen and (max-width: 700px) {
     height: 1550px;
     margin-top: 300px;
   } */
@@ -105,22 +100,22 @@ export const MainCont = styled.div`
   padding: 0px 10px;
   width: 800px;
   display: grid;
-  grid-template-columns: repeat(4, 180px);
+  grid-template-columns: repeat(4, 200px);
   grid-template-rows: repeat(4, 220px);
   gap: 50px;
 
-  /* @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 1150px) {
     display: grid;
     grid-template-columns: repeat(3, 200px);
-  } */
-  /* @media screen and (max-width: 1600px) {
+  }
+  @media screen and (max-width: 1035px) {
     display: grid;
     grid-template-columns: repeat(2, 200px);
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 438px) {
     display: grid;
     grid-template-columns: repeat(1, 200px);
-  } */
+  }
 `;
 
 export const Grid = styled.div`
@@ -157,5 +152,9 @@ export const Preview = styled.div`
 `;
 
 export const SelectDownMain = styled.div`
-  margin-top: 100px;
+  margin-top: 130px;
+`;
+
+export const Both = styled.div`
+  display: flex;
 `;
